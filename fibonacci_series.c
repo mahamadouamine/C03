@@ -11,7 +11,7 @@ int main()
     printf("%d ", a);
     while (b <= limit)
     {
-        printf("%d ",b);
+        printf("%d. ",b);
         temp = a + b;
         a = b;
         b = temp;
