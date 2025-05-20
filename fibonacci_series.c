@@ -8,10 +8,10 @@ int main()
         scanf("%d", &limit);
     }while(limit < 2);
     //affichage de la suite de fibonacci jusqu'à la limite
-    printf("%d", a);
+    printf("%d ", a);
     while (b <= limit)
     {
-        printf("%d",b);
+        printf("%d ",b);
         temp = a + b;
         a = b;
         b = temp;
